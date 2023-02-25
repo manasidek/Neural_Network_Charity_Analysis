@@ -23,7 +23,7 @@ The Script for the analysis is: [AlphabetSoupCharity](https://github.com/manasid
 
 - The columns **EIN** and **NAME** are identification information and are removed from the input data.
 
-- The column IS_SUCCESSFUL is considered as the target for the deep learning model.
+- The column **IS_SUCCESSFUL** is considered as the target for the deep learning model.
 
 - The following columns **APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT** are the features for the model.
 
