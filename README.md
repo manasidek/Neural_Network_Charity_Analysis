@@ -40,7 +40,7 @@ The Script for the analysis is: [AlphabetSoupCharity]()
 
 - To speed up the training process and to get higher accuracy ReLU and TanH activation functions are used for the hidden layers. As the output is a binary classification, Sigmoid is used on the output layer.
 
-- For the compilation, the optimizer is adam and the loss function is binary_crossentropy.
+- For the compilation, the optimizer is *adam* and the loss function is binary_crossentropy.
 
 - The model accuracy is under 75%. This is not a satisfying performance to help predict the outcome of the charity donations.
 
@@ -56,6 +56,6 @@ The Script for optimization is: [AlphabetSoupCharity_optimization]()
 
 ## Summary
 
--The deep learning neural network model did not reach the target of 75% accuracy. Considering that this target level is pretty average we could say that the model is not outperforming.
+- The deep learning neural network model did not reach the target of 75% accuracy. Considering that this target level is pretty average we could say that the model is not outperforming.
 
--Since it is a binary classification, a supervised machine learning model such as the Random Forest Classifier can be applied, to combine a multitude of decision trees to generate a classified output and evaluate its performance against the deep learning model.
+- Since it is a binary classification, a supervised machine learning model such as the Random Forest Classifier can be applied, to combine a multitude of decision trees to generate a classified output and evaluate its performance against the deep learning model.
